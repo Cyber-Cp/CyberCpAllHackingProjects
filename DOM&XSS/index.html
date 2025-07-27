@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSS Test</title>
+</head>
+<body>
+    <h2>🚨 XSS Testing Form</h2>
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="greet()">Say Hello</button>
+
+    <p id="greeting"></p>
+
+    <!-- ✅ MOVE script tag here, at the end of <body> -->
+    <script src="./script.js"></script>
+</body>
+</html>
